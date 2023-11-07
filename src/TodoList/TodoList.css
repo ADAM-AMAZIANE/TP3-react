@@ -1,0 +1,73 @@
+/* Style the container */
+.TodoList {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style the heading */
+  .TodoList h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the list */
+  .TodoList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .TodoList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #e6e3e3;
+    border: 1px solid #a1a1a1;
+    border-radius: 4px;
+  }
+  
+  /* Style the input and button */
+  .TodoList input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .remove-button {
+      background-color: #ff0019;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 5px 10px;
+      cursor: pointer;
+    
+    
+  }
+
+  .add-button {
+    margin-left: 20px;
+    background-color: #1abd17;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the remove button */
+  .remove-button:hover {
+    background-color: #9e1c29;
+  }
+
+
+  /* Hover effect for the add button */
+  .add-button:hover {
+    background-color: #159a10;
+  }
+
+
+  
